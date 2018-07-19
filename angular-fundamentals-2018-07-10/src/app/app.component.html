@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<nav>
+  <a [routerLink]="['/hello']">Hello</a>
+  <a [routerLink]="['/counter']">Counter</a>
+  <a [routerLink]="['/image-selector']">Image Selector</a>
+  <a [routerLink]="['/mouse-tracker']">Mouse Tracker</a>
+</nav>
+
+<div id="content-pane">
+  <router-outlet></router-outlet>
+</div>
+
+<app-input-example></app-input-example>
+
+<app-ngfor-demo></app-ngfor-demo>
+
+<app-alert-button></app-alert-button>
+<app-counter></app-counter>
+<app-mouse-tracker></app-mouse-tracker>
+<app-image-selector></app-image-selector>
+
+<app-hello></app-hello>
