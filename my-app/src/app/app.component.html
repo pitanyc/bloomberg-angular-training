@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <p>
+    An application by {{name}}.
+  </p>
+</div>
+
+<nav>
+  <a [routerLink]="['/hello']">hello</a> | 
+  <a routerLink="count">count</a>
+</nav>
+
+<div id="content">
+  <router-outlet></router-outlet>
+</div>
+
+<!--
+
+<br/>
+<app-hello></app-hello>
+
+<br/>
+<alert-button></alert-button>
+
+<br/>
+<app-counter></app-counter>
+
+<br/>
+<app-mouse-location></app-mouse-location>
+
+<br/>
+<app-select-image></app-select-image>
+
+-->
